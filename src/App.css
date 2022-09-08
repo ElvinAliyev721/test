@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6%;
+}
+.currency{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.exchangeIcon{
+  margin-top: 2%;
+    padding-left: 10%;
+    color: #0E57D6;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.currencySelect{
+  text-align: center;
+  padding-right: 10px;
+  width: 311px;
+  height: 52px;
+  background: #FFFFFF;
+box-shadow: 3px 3px 10px rgba(14, 87, 214, 0.26);
+border-radius: 20px;
+appearance: none;
+background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+background-repeat: no-repeat;
+background-position: right 3rem center;
+background-size: 1em;
+}
+.currencyMain{
+  padding: 4%;
+  margin-top: 32px;
+  margin-left: 6%;
+    width: 715px;
+height: 196px;
+background: #FFFFFF;
+box-shadow: 1px 1px 6px rgba(14, 87, 214, 0.26);
+border-radius: 20px;
+}
+.currencyMainTitle{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color:#696767;
+}
+.mainInput{
+  width: 611px;
+height: 52px;
+background: #FFF;
+
+border: 0.5px solid rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+}
+input{
+  width: 515px;
+height: 51px;
+background: #F2F2F2;
+border: 0.5px solid rgba(0, 0, 0, 0.3);
+border-radius: 10px 0px 0px 10px;
+padding: 15px;
+}
+input:focus {
+  outline: none !important;
+}
+.convertIcon{
+  display: inline-block;
+  margin-left: 6.5%;
+  font-size: 20px;
+  color: #0E57D6;
+}
+
+.convertMoneyText{
+  display: inline-block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #696767;
+  width: 171px;
+height: 21px;
+margin-top: 5%;
+}
+.money{
+  padding:0 5%;
+  margin-left: 3%;
+  width: 715px;
+  margin-top: 5%;
+height: 55px;
+line-height: 55px;
+background: #FFFFFF;
+box-shadow: 1px 1px 4px rgba(14, 87, 214, 0.26);
+border-radius: 20px;
+
+}
+.convertIcon{
+  cursor: pointer;
+}
